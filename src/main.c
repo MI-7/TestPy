@@ -60,11 +60,11 @@ void testOverFlow() {
 	printf("%d", x);
 }
 
-int main(char * args[])
+int main(int argc, char * args[])
 {
-	// testIntAndList();
+	testIntAndList();
 
-	testOverFlow();
+	// testOverFlow();
 
 	return 0;
 }
